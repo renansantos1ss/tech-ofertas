@@ -1,0 +1,38 @@
+TECH OFERTAS — LOJA GRATUITA DE LINKS DE AFILIADO
+
+ARQUIVOS:
+- index.html: loja pública
+- styles.css: visual do site
+- app.js: catálogo, busca e filtros
+- products.json: produtos visíveis publicamente
+- admin.html e admin.js: editor local
+
+COMO PUBLICAR NO GITHUB PAGES (GRÁTIS):
+1. Entre em https://github.com e crie sua conta, se necessário.
+2. Crie um repositório PÚBLICO, por exemplo: tech-ofertas.
+3. Envie TODOS os arquivos desta pasta para a RAIZ do repositório
+   (não envie somente o ZIP).
+4. Abra Settings > Pages, escolha Deploy from a branch,
+   selecione a branch main e a pasta /(root), e salve.
+5. Seu endereço terá o formato:
+   https://SEU-USUARIO.github.io/tech-ofertas/
+   (confirme o endereço exato exibido no GitHub).
+
+COMO CADASTRAR PRODUTOS:
+1. Depois da publicação, acesse /tech-ofertas/admin.html no seu site.
+2. Preencha nome, categoria, link de afiliado e imagem (opcional).
+3. Clique em Salvar produto. Isso altera APENAS a prévia no navegador atual.
+4. Clique em Baixar products.json e substitua esse arquivo no repositório.
+5. Aguarde o deploy do GitHub Pages e teste o site em aba anônima.
+6. Todos os visitantes verão os produtos cadastrados no arquivo publicado.
+
+IMPORTANTÍSSIMO:
+- O editor NÃO possui login e NÃO altera o site público automaticamente.
+- Outros visitantes também podem abrir admin.html, mas só conseguem alterar
+  o próprio navegador — não o repositório nem os produtos públicos.
+- Os seis produtos iniciais são exemplos sem URLs de afiliado ou preços reais.
+- Use somente os SEUS links de afiliado, e não copie preços sem verificar.
+- O site não tem carrinho nem checkout; vendas acontecem na loja parceira.
+- Confirme as regras de divulgação do seu programa antes de publicar.
+- O GitHub Pages serve um site estático. Para login e cadastro online real
+  com sincronização automática, será necessário adicionar outro serviço.
